@@ -1,0 +1,204 @@
+/***** STARTER CODE - DO NOT CHANGE *****/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #737373;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 50px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  display: inline;
+  padding-right: 20px;
+}
+
+nav{
+  background-color: #ddd;
+  padding: 25px 0;    
+  text-align: left;   
+}
+
+header p{
+  color: white;
+  font-size: 24px;
+  padding: 0 100px;
+  text-align: center;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+
+
+/*****  End Starter Code ****/
+
+nav a{
+  color: black;
+  font-weight: bold;
+  /* Requirement 1 code here*/
+}
+
+  /* Requirement 2 code here*/
+
+
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+
+  /* Requirement 3a code here*/
+  
+}
+
+/* Requirement 3b code here*/
+
+
+/* Requirement 4 code here*/
+
+
+
+.container{
+  /* Requirement 5 code here*/
+
+}
+
+/* Remainder of requirements here: */
+
+header{
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center; /* Parallax effect */
+  background-size: cover; /* Parallax effect */
+  color: white;
+  height: 400px; /* Parallax effect */
+
+  /* YOUR CODE HERE; */
+}
+
+
+
+.about-image{
+  
+}
+
+.about{
+ 
+}
+
+.method-image{
+ 
+}
+
+.method{
+  
+}
+
+/* You need to write some of your own selectors here */
+
+
+
+.text-block{
+  background-color: rgba(255, 255, 255, .8);
+  border: 10px solid black;
+  padding: 30px;
+
+  /* Your code here */
+
+}
+
+@media screen and (min-width: 800px){
+  nav{
+    padding: 30px 0;
+
+    /* Your code here */
+  }
+
+  .container{
+   
+  }
+
+  
+
+  .about-image{
+  
+  }
+
+  .about{
+    
+  }
+
+  .method-image{
+    
+  }
+
+  .method{
+   
+  }
+
+  .clients-image{
+    
+  }
+
+  .clients{
+    
+  }
+
+  .contact-image{
+    
+  }
+
+  .contact{
+    
+  }
+
+}
+
+
+/** Code for prefers reduced motion **/
+/* Make no changes below this line.
+   *************************************** 
+   */
+@media screen and (prefers-reduced-motion: reduce){
+  /*Turn off scroll*/
+  html{
+      scroll-behavior: auto; /* Removes scroll animation */
+  }
+
+  /*Turn off transition*/
+  .skip a{
+    -webkit-transition: initial; /* sets to default setting */
+    transition: initial; /* sets to default setting */
+  }
+
+  /*Turn off parallax*/
+  header{
+    background-attachment: initial;
+  }
+}

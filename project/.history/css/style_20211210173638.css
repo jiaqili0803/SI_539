@@ -1,0 +1,174 @@
+body{
+  background-color: black;
+  
+  font-size: 18px;
+  line-height: 1.4em;
+  margin: auto;
+  padding: 0;
+  height: 100%;
+  font-family: "Comic Sans MS", sans-serif;
+
+  
+  
+}
+
+/* header */
+header{
+  color: white;
+  height: 300px; 
+
+  grid-column: 1/-1;
+  grid-row: 1/span 1;
+  /* background: #89B5AF; */
+  background: url("../images/bgimage/universe.jpg");
+  background-repeat: no-repeat;
+
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center; /* Parallax effect */
+  background-size: cover; /* Parallax effect */
+  height: 400px; /* Parallax effect */
+
+  
+}
+
+
+/* nav */
+nav{
+  /* background-color:#96C7C1; */
+  padding: 25px 0;    
+  text-align: right;  
+  
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  display: inline;
+  padding-right: 20px;
+}
+
+nav a{
+  color: #B2B1B9;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+footer{
+  /* background-color: #96C7C1; */
+  color: #DED9C4;
+  padding-top: 30px;
+  text-align: center;
+}
+
+
+
+/* img */
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+h1{
+  font-size: 70px;
+  line-height: 1;
+  padding: 50px 0;
+  text-align: center;
+}
+
+h2{
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+
+/* class */
+
+.skip a{
+  background: white;
+  left: 0;
+  padding: 6px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+}
+
+.skip a:focus{
+  position: absolute;
+  top: 0px;
+}
+
+
+.active-page{
+  background-color:white;
+  border-radius: 5px;
+  text-decoration: underline dotted;
+
+}
+
+
+/* grid-text and flex-pic */
+
+.text-block{
+  display: grid;
+  /* grid-template-columns: 2fr 5fr 2fr;
+  grid-template-rows: repeat(1, auto);
+  grid-row-gap: 10px;
+  grid-row-end: auto; */
+  color: white;
+  
+}
+
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+}
+
+
+
+
+
+
+@media screen and (min-width: 1000px){
+
+  .image{
+    /* display: flex;
+    overflow: hidden;
+
+    
+    column-span: all;
+    overflow: hidden;
+    grid-row: 3 / span 1; */
+    
+  }
+
+  .text-block{
+/*     
+    background-color: #89B5AF; */
+
+  }
+
+  nav{
+    /* background-color:#96C7C1; */
+    /* padding: 30px 30px;     */
+    text-align: center;  
+  }
+
+  li{
+    padding: 50px;
+  }
+
+ 
+}

@@ -1,0 +1,16 @@
+body{
+    background: #000000;
+    color: #ffffff;
+    font-family: "Times New Roman",sans-serif;
+}
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    padding: 100px;
+}
+
+
+#red{
+    background:#FF0000;
+}

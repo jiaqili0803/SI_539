@@ -1,0 +1,36 @@
+body{
+    font-family: 'Alegreya Sans SC', Sans-Serif;
+    background-image: url("../images/concrete_seamless.png");
+    background-color: #f1f1f1;
+   
+  }
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a:link, a:visited {
+    color: blue;
+}
+
+
+#nav_links{
+    display: flex;
+
+}
+
+.pricing{
+    display: flex;
+}
+
+#pricing{
+    display: flex;
+}
+
+/* #card{
+    display: flex;
+} */
+
